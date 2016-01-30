@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#BABABA"
+        >
+        
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="4"
+            android:id="@+id/edit_id"
+            android:paddingLeft="15dp"
+            android:hint="ID"
+            />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="3"
+            android:id="@+id/edit_q1"
+            android:layout_marginLeft="20dp"
+            android:hint="Q1"
+            />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="3"
+            android:id="@+id/edit_q2"
+            android:layout_marginLeft="20dp"
+            android:hint="Q2"
+            />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="3"
+            android:id="@+id/edit_q3"
+            android:layout_marginLeft="20dp"
+            android:hint="Q3"
+            />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="3"
+            android:id="@+id/edit_q4"
+            android:layout_marginLeft="20dp"
+            android:hint="Q4"
+            />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="3"
+            android:id="@+id/edit_q5"
+            android:layout_marginLeft="20dp"
+            android:hint="Q5"
+            />
+    
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add"
+            android:id="@+id/button_add_score"
+            android:layout_marginLeft="10dp"
+            />
+
+
+
+    </LinearLayout>
+    
+</LinearLayout>

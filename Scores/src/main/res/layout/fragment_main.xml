@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:paddingBottom="0dp"
+    tools:context=".MainActivity$PlaceholderFragment">
+
+    <fragment android:name="com.example.cmu.ui.InputDataFragment"
+        android:id="@+id/input_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="1dp"
+        tools:layout="@layout/fragment_input_data"
+        />
+
+    <fragment android:name="com.example.cmu.ui.StatResultFragment"
+        android:id="@+id/stat_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="1dp"
+        tools:layout="@layout/fragment_stat_result"
+        />
+
+    <fragment android:name="com.example.cmu.ui.ListScoresFragment"
+        android:id="@+id/list_scores"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/input_result"
+        android:layout_above="@+id/stat_result"
+        tools:layout="@layout/fragment_list_all_scores"
+        />
+
+
+</RelativeLayout>
