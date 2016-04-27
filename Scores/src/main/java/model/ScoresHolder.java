@@ -3,11 +3,6 @@ package model;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Author: Junjian Xie
- * Email: junjianx@andrew.cmu.edu
- * Date: 15/11/10
- */
 public class ScoresHolder {
     final int QUIZ_NUM = 5;
     List<Student> studentList;
