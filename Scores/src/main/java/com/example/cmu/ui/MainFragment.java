@@ -24,11 +24,6 @@ import model.ScoresHolder;
 import model.Student;
 import util.DBUtil;
 
-/**
- * Author: Junjian Xie
- * Email: junjianx@andrew.cmu.edu
- * Date: 15/11/11
- */
 public class MainFragment extends Fragment implements View.OnClickListener {
     final static int QUIZ_NUM = 5;
     final static String LOG_TAG = MainFragment.class.getSimpleName();
