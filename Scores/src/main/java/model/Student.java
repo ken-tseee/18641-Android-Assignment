@@ -1,10 +1,5 @@
 package model;
 
-/**
- * Author: Junjian Xie
- * Email: junjianx@andrew.cmu.edu
- * Date: 15/11/10
- */
 public class Student {
     final int QUIZ_NUM = 5;
 
