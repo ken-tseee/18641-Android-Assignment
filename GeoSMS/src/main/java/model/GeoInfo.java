@@ -16,11 +16,6 @@ import android.support.v4.content.ContextCompat;
 import android.util.Log;
 import android.widget.Toast;
 
-/**
- * Author: Junjian Xie
- * Email: junjianx@andrew.cmu.edu
- * Date: 15/11/14
- */
 public class GeoInfo extends Service implements LocationListener {
     private final Context context;
     private final String LOG_TAG = GeoInfo.class.getSimpleName();
