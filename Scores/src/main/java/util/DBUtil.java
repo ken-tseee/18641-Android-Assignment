@@ -7,11 +7,6 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
 
-/**
- * Author: Junjian Xie
- * Email: junjianx@andrew.cmu.edu
- * Date: 15/11/10
- */
 public class DBUtil extends SQLiteOpenHelper {
     public static final int data_base_version = 1;
 
