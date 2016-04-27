@@ -10,12 +10,6 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-
-/**
- * Author: Junjian Xie
- * Email: junjianx@andrew.cmu.edu
- * Date: 15/11/11
- */
 public class GetOnMailFragment extends Fragment implements View.OnClickListener {
     public GetOnMailFragment() {
 
