@@ -11,11 +11,6 @@ import android.widget.Toast;
 
 import model.GeoInfo;
 
-/**
- * Author: Junjian Xie
- * Email: junjianx@andrew.cmu.edu
- * Date: 15/11/14
- */
 public class SendGeoSMSOnClickListener implements View.OnClickListener {
     private final String LOG_TAG = SendGeoSMSOnClickListener.class.getSimpleName();
     private Activity activity;
