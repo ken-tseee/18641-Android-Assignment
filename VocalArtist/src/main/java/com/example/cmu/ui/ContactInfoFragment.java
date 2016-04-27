@@ -18,11 +18,6 @@ import android.widget.Toast;
 
 import java.util.regex.Pattern;
 
-/**
- * Author: Junjian Xie
- * Email: junjianx@andrew.cmu.edu
- * Date: 15/11/11
- */
 public class ContactInfoFragment extends Fragment implements View.OnClickListener {
     final static String LOG_TAG =  ContactInfoFragment.class.getSimpleName();
 
