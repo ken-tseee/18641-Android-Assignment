@@ -8,11 +8,6 @@ import android.view.ViewGroup;
 
 import com.example.cmu.scores.R;
 
-/**
- * Author: Junjian Xie
- * Email: junjianx@andrew.cmu.edu
- * Date: 15/11/11
- */
 public class StatResultFragment extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
