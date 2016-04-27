@@ -1,10 +1,5 @@
 package util;
 
-/**
- * Author: Junjian Xie
- * Email: junjianx@andrew.cmu.edu
- * Date: 15/11/10
- */
 public class SQLCmd {
     public static final String USER_NAME = "user_name";
     public static final String USER_PASS = "user_pass";
