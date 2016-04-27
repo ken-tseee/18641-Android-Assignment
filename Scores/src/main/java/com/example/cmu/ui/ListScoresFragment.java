@@ -13,11 +13,6 @@ import com.example.cmu.scores.R;
 import java.util.Arrays;
 import java.util.List;
 
-/**
- * Author: Junjian Xie
- * Email: junjianx@andrew.cmu.edu
- * Date: 15/11/11
- */
 public class ListScoresFragment extends Fragment {
     final String s = "STUD         Q1         Q2         Q3         Q4         Q5";
 
