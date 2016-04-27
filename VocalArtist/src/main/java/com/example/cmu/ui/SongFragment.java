@@ -8,11 +8,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
-/**
- * Author: Junjian Xie
- * Email: junjianx@andrew.cmu.edu
- * Date: 15/11/11
- */
 public class SongFragment extends Fragment implements View.OnClickListener {
     private MediaPlayer mPlayer1;
     private MediaPlayer mPlayer2;
