@@ -9,11 +9,6 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.VideoView;
 
-/**
- * Author: Junjian Xie
- * Email: junjianx@andrew.cmu.edu
- * Date: 15/11/11
- */
 public class VideoFragment extends Fragment implements View.OnClickListener {
     private VideoView v1;
     private VideoView v2;
