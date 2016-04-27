@@ -1,10 +1,5 @@
 package model;
 
-/**
- * Author: Junjian Xie
- * Email: junjianx@andrew.cmu.edu
- * Date: 15/11/4
- */
 public class MortgageCal {
     /**
      * Convert Jan~Dec into 1~12.
